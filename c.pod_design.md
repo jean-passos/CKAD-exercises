@@ -447,6 +447,8 @@ kubectl delete deploy/nginx hpa/nginx
 
 ## Jobs
 
+kubernetes.io > Documentation > Concepts > Workloads > Controllers > [Jobs - Run to Completion](https://kubernetes.io/docs/concepts/workloads/controllers/jobs-run-to-completion/)
+
 ### Create a job with image perl that runs the command with arguments "perl -Mbignum=bpi -wle 'print bpi(2000)'"
 
 <details><summary>show</summary>
